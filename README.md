@@ -38,19 +38,19 @@ In order to use the code you need to install the following packages
     import tensorflow
    ```
 2. For the dataset 
-```sh
+  ```sh
     from keras.datasets import cifar10
    ```
 3. For the neural network
-   ```sh
-    from keras.utils import np_utils #for the encoding to transform the labels in categorical
-    from keras.layers import Input, Dense, Conv2D, MaxPooling2D, Dropout, Flatten, UpSampling2D #import the layers  
-    from keras.models import Sequential #import the model
-    from tensorflow.keras import optimizers #import the optimizer
-    from keras.preprocessing import image #for visualisation of the image data
-    from keras import backend as K #for cleaning the memory
-    from keras.callbacks import Callback #import the callback
-   ```
+```sh
+from keras.utils import np_utils #for the encoding to transform the labels in categorical
+from keras.layers import Input, Dense, Conv2D, MaxPooling2D, Dropout, Flatten,UpSampling2D #import the layers  
+from keras.models import Sequential #import the model
+from tensorflow.keras import optimizers #import the optimizer
+from keras.preprocessing import image #for visualisation of the image data
+from keras import backend as K #for cleaning the memory
+from keras.callbacks import Callback #import the callback
+```
    
 
 
